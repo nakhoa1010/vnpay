@@ -1,0 +1,28 @@
+CREATE TABLE YourTableName (
+    number_plate VARCHAR(10),
+    payment_status BOOLEAN,
+    order_number VARCHAR(20)
+);
+
+INSERT INTO YourTableName (number_plate, payment_status, order_number)
+VALUES
+    ('ABC123', FALSE, ''),
+    ('DEF456', FALSE, ''),
+    ('GHI789', FALSE, ''),
+    ('JKL012', FALSE, ''),
+    ('MNO345', FALSE, ''),
+    ('PQR678', FALSE, ''),
+    ('STU901', FALSE, ''),
+    ('VWX234', FALSE, ''),
+    ('YZA567', FALSE, ''),
+    ('BCD890', FALSE, ''),
+    ('EFG123', FALSE, ''),
+    ('HIJ456', FALSE, ''),
+    ('KLM789', FALSE, ''),
+    ('NOP012', FALSE, ''),
+    ('QRS345', FALSE, ''),
+    ('TUV678', FALSE, ''),
+    ('WXY901', FALSE, ''),
+    ('ZAB234', FALSE, ''),
+    ('CDE567', FALSE, ''),
+    ('FGH890', FALSE, '');
